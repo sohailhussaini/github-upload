@@ -1,9 +1,0 @@
-build/
-dist/
-*~
-\#*\#
-*.swp
-nbproject
-.DS_Store
-doc/pdf/
-src/main/java/ch/sfdr/lacantina/Version.java

@@ -1,0 +1,55 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for beeroftheworld:beeroftheworld:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-parent:9, C:\Users\DELL\.m2\repository\br\gov\frameworkdemoiselle\demoiselle-parent\9\demoiselle-parent-9.pom, line 116, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< beeroftheworld:beeroftheworld >--------------------
+[INFO] Building beeroftheworld 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ beeroftheworld ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:unpack (unpack-jbehave-site-resources) @ beeroftheworld ---
+[INFO] Configured Artifact: org.jbehave.site:jbehave-site-resources:3.1.1:zip
+[INFO] jbehave-site-resources-3.1.1.zip already unpacked.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:unpack (unpack-jbehave-reports-resources) @ beeroftheworld ---
+[INFO] Configured Artifact: org.jbehave:jbehave-core:?:jar
+[INFO] jbehave-core-4.0.1.jar already unpacked.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ beeroftheworld ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\DELL\Desktop\git\Maven\beeroftheworld\src\main\resources
+[INFO] skip non existing resourceDirectory C:\Users\DELL\Desktop\git\Maven\beeroftheworld\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:compile (default-compile) @ beeroftheworld ---
+[INFO] Compiling 8 source files to C:\Users\DELL\Desktop\git\Maven\beeroftheworld\target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] error: Source option 6 is no longer supported. Use 7 or later.
+[ERROR] error: Target option 6 is no longer supported. Use 7 or later.
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.911 s
+[INFO] Finished at: 2020-04-10T00:56:58+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.1:compile (default-compile) on project beeroftheworld: Compilation failure: Compilation failure: 
+[ERROR] error: Source option 6 is no longer supported. Use 7 or later.
+[ERROR] error: Target option 6 is no longer supported. Use 7 or later.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
